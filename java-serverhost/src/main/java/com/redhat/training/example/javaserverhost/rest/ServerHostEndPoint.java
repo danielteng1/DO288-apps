@@ -20,6 +20,7 @@ public class ServerHostEndPoint {
        e.printStackTrace();
     }
     String msg = "I am running on server "+host+" Version 2.0 \n";
+    System.out.println("loging: Got a request");
     return Response.ok(msg).build();
   }
 }
